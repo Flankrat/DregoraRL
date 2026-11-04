@@ -113,7 +113,7 @@ DoReplaceBlocks: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-WeightedBranch(0,0,0,true,f_bunker_default_empty,NORTH,20.0,0,f_bunker_default_apartements,NORTH,8.0,0,f_bunker_default_small_01,NORTH,10.0,0,f_bunker_default_small_02,NORTH,10.0,0,f_bunker_default_small_03,NORTH,10.0,0,f_bunker_default_small_04,NORTH,10.0,0,f_bunker_default_small_05,NORTH,10.0,0,f_bunker_default_small_06,NORTH,10.0,0,f_bunker_default_small_07,NORTH,10.0,0,f_bunker_default_small_08,NORTH,10.0,0,f_bunker_default_storage,NORTH,8.0,0,f_bunker_default_factory,NORTH,8.0,0,f_bunker_default_mid,NORTH,8.0,0,f_bunker_default_rich,NORTH,8.0,0,933.3)
+WeightedBranch(0,0,0,true,f_bunker_default_empty,NORTH,300.0,0,f_bunker_default_apartements,NORTH,8.0,0,f_bunker_default_small_01,NORTH,10.0,0,f_bunker_default_small_02,NORTH,10.0,0,f_bunker_default_small_03,NORTH,10.0,0,f_bunker_default_small_04,NORTH,10.0,0,f_bunker_default_small_05,NORTH,10.0,0,f_bunker_default_small_06,NORTH,10.0,0,f_bunker_default_small_07,NORTH,10.0,0,f_bunker_default_small_08,NORTH,10.0,0,f_bunker_default_storage,NORTH,8.0,0,f_bunker_default_factory,NORTH,8.0,0,f_bunker_default_mid,NORTH,8.0,0,f_bunker_default_rich,NORTH,8.0,0,933.3)
 
 
 #######################################################################

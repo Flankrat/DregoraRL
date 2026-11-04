@@ -1,0 +1,44 @@
+Author: NLBlackEagle
+Description: Bunker mob (generated)
+SettingsMode: WriteDisable
+FixedRotation: 
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: false
+OverrideParentHeight: false
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: false
+CanSpawnOnWater: true
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: 0
+RemoveAir: false
+ReplaceAbove: 
+ReplaceBelow: 
+ReplaceWithBiomeBlocks: false
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: false
+Block(0,0,0,AIR)
+Entity(0,0,0,srparasites:gnat,3,../../Bunkers/Entities/bunk_persist_srp.txt)

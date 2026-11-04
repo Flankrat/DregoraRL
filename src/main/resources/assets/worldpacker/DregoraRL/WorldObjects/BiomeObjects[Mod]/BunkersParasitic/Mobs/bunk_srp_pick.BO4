@@ -1,0 +1,43 @@
+Author: NLBlackEagle
+Description: Picks a bunker mob (generated)
+SettingsMode: WriteDisable
+FixedRotation: 
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: false
+OverrideParentHeight: false
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: false
+CanSpawnOnWater: true
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: 0
+RemoveAir: false
+ReplaceAbove: 
+ReplaceBelow: 
+ReplaceWithBiomeBlocks: false
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: false
+WeightedBranch(0,0,0,false,bunk_srp_rupter,NORTH,100,2,bunk_srp_gnat,NORTH,100,2,bunk_srp_sim_human,NORTH,90,2,bunk_srp_sim_villager,NORTH,90,2,bunk_srp_sim_adventurer,NORTH,90,2,bunk_srp_fer_human,NORTH,70,2,bunk_srp_fer_villager,NORTH,70,2,bunk_srp_incompleteform_small,NORTH,50,2,bunk_srp_movingflesh,NORTH,50,2,887.5)

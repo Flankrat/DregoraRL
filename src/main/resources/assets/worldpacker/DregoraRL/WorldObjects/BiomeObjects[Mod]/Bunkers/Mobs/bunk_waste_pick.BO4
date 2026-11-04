@@ -1,0 +1,43 @@
+Author: NLBlackEagle
+Description: Picks a bunker mob (generated)
+SettingsMode: WriteDisable
+FixedRotation: 
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: false
+OverrideParentHeight: false
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: false
+CanSpawnOnWater: true
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: 0
+RemoveAir: false
+ReplaceAbove: 
+ReplaceBelow: 
+ReplaceWithBiomeBlocks: false
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: false
+WeightedBranch(0,0,0,false,bunk_waste_feral_ghoul,NORTH,100,2,bunk_waste_zombiemushroom,NORTH,100,2,bunk_waste_foglet,NORTH,50,2,bunk_waste_boneworm,NORTH,80,2,bunk_waste_weta,NORTH,100,2,bunk_waste_husk,NORTH,70,2,bunk_waste_ghoul,NORTH,80,2,bunk_waste_wraamon,NORTH,80,2,bunk_waste_lurker,NORTH,50,2,bunk_waste_darkling,NORTH,30,2,bunk_waste_gorgomite,NORTH,50,2,bunk_waste_calpod,NORTH,50,2,bunk_waste_kobold,NORTH,50,2,1112.5)

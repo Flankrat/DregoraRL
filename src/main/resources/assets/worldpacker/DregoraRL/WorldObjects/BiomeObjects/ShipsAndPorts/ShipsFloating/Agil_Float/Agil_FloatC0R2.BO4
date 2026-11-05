@@ -1354,7 +1354,7 @@ Block(7,47,4,DARK_OAK_FENCE:0)
 Block(7,48,3,WOOL:15)
 Block(7,48,4,DARK_OAK_FENCE:0)
 Block(7,49,4,DARK_OAK_FENCE:0)
-RandomBlock(7,50,4,STANDING_BANNER:10,../../Banners/agil_01.nbt,20,STANDING_BANNER:10,../../Banners/agil_02.nbt,20,STANDING_BANNER:10,../../Banners/agil_03.nbt,20,STANDING_BANNER:10,../../Banners/agil_04.nbt,20,STANDING_BANNER:10,../../Banners/agil_05.nbt,100)
+RandomBlock(7,50,4,STANDING_BANNER:10,../../Banners/Agil_01.nbt,20,STANDING_BANNER:10,../../Banners/Agil_02.nbt,20,STANDING_BANNER:10,../../Banners/Agil_03.nbt,20,STANDING_BANNER:10,../../Banners/Agil_04.nbt,20,STANDING_BANNER:10,../../Banners/Agil_05.nbt,100)
 Branch(0,0,-16,true,Agil_FloatC0R1,NORTH,100.0,0)
 
 Entity(4,11,4,minecraft:villager,1)

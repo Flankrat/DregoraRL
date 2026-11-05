@@ -40,7 +40,7 @@ BO3Group:
 IsSpawnPoint: false
 DoReplaceBlocks: true
 Block(-5,8,-7,SPRUCE_FENCE:0)
-RandomBlock(-4,5,-7,AIR,70,WALL_BANNER:4,../../NBT/Banners/viking_honor_1.nbt,20,WALL_BANNER:4,../../NBT/Banners/viking_honor_2.nbt,20,WALL_BANNER:4,../../NBT/Banners/viking_honor_3.nbt,20,WALL_BANNER:4,../../NBT/Banners/viking_honor_4.nbt,20,WALL_BANNER:4,../../NBT/Banners/viking_honor_5.nbt,20,WALL_BANNER:4,../../NBT/Banners/viking_honor_6.nbt,100)
+RandomBlock(-4,5,-7,AIR,70,WALL_BANNER:4,../../NBT/banners/viking_honor_1.nbt,20,WALL_BANNER:4,../../NBT/banners/viking_honor_2.nbt,20,WALL_BANNER:4,../../NBT/banners/viking_honor_3.nbt,20,WALL_BANNER:4,../../NBT/banners/viking_honor_4.nbt,20,WALL_BANNER:4,../../NBT/banners/viking_honor_5.nbt,20,WALL_BANNER:4,../../NBT/banners/viking_honor_6.nbt,100)
 Block(-4,8,-7,SPRUCE_FENCE:0)
 Block(-3,4,-7,WOOD:1)
 Block(-3,4,-6,WOOD:1)
@@ -268,7 +268,7 @@ Block(3,6,-4,WOOD:1)
 Block(3,7,-5,WOOD_STEP:5)
 Block(3,7,-4,WOOD_STEP:5)
 Block(4,0,-6,SPRUCE_FENCE:0)
-RandomBlock(4,5,-7,AIR,70,WALL_BANNER:5,../../NBT/Banners/viking_emblem_1.nbt,20,WALL_BANNER:5,../../NBT/Banners/viking_emblem_2.nbt,20,WALL_BANNER:5,../../NBT/Banners/viking_emblem_3.nbt,20,WALL_BANNER:5,../../NBT/Banners/viking_emblem_4.nbt,100)
+RandomBlock(4,5,-7,AIR,70,WALL_BANNER:5,../../NBT/banners/viking_emblem_1.nbt,20,WALL_BANNER:5,../../NBT/banners/viking_emblem_2.nbt,20,WALL_BANNER:5,../../NBT/banners/viking_emblem_3.nbt,20,WALL_BANNER:5,../../NBT/banners/viking_emblem_4.nbt,100)
 Block(5,0,-7,SPRUCE_FENCE:0)
 Block(5,0,-6,SPRUCE_FENCE:0)
 Entity(0,4,-6,minecraft:cave_spider,1,../../NBT/Entities/VikingVillage/edderkopp.txt)

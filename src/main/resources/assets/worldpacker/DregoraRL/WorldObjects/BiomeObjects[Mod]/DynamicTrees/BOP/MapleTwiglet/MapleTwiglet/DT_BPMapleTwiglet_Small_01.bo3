@@ -124,7 +124,7 @@ IsOTGPlus: false
 #  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
 #  spawns the bottom part of an igloo.
 Block(0,2,1,dynamictreesbop:leaves7:0)
-Block(1,0,1,dynamictrees:rootydirtspecies:0,DT_BPMapleTwiglet_Small_01/1-species_tile_entity.nbt)
+Block(1,0,1,dynamictrees:rootydirtspecies:0,../../../../../SharedNBT/Decorative/species_tile_entity_mapletwiglet.nbt)
 BlockCheck(1,-1,1,GRASS,DIRT,BIOMESOPLENTY:GRASS,BIOMESOPLENTY:DIRT)
 Block(1,1,1,dynamictrees:oakbranch:1)
 Block(1,2,0,dynamictreesbop:leaves7:0)

@@ -242,7 +242,7 @@ RandomBlock(-8,13,-5,CONCRETE:15,65,notreepunching:cobblestone/basalt,50,quark:i
 RandomBlock(-8,13,-4,CONCRETE:7,65,STAINED_CLAY:15,10,STAINED_CLAY:9,100)
 RandomBlock(-8,13,-3,CONCRETE:7,65,STAINED_CLAY:15,10,STAINED_CLAY:9,100)
 RandomBlock(-8,13,-2,CONCRETE:7,65,STAINED_CLAY:15,10,STAINED_CLAY:9,100)
-Block(-8,13,-1,FLOWER_POT:0,../NBT/Trader_Silo/153-flower_potC16R16.nbt)
+Block(-8,13,-1,FLOWER_POT:0,../../../SharedNBT/Decorative/flower_pot_brown_mushroom_Data0.nbt)
 RandomBlock(-8,13,0,AIR:0,30,CHEST:5,../../../Chests/Loot/junk_loot.nbt,10,CHEST:5,../../../Chests/Loot/village_blacksmith.nbt,10,CHEST:5,../../../Chests/Loot/spawn_bonus_chest.nbt,10,CHEST:5,../../../Chests/Loot/rare_loot.nbt,5,CHEST:5,../../../Chests/Loot/gem_loot.nbt,3,CHEST:5,../../../Chests/Loot/junk_loot.nbt,50,CHEST:5,../../../Chests/Loot/gem_loot.nbt,5,CHEST:5,../../../Chests/Loot/common_loot.nbt,100)
 Block(-8,13,1,PACKED_ICE:0)
 RandomBlock(-8,13,2,CONCRETE:7,65,STAINED_CLAY:15,10,STAINED_CLAY:9,100)

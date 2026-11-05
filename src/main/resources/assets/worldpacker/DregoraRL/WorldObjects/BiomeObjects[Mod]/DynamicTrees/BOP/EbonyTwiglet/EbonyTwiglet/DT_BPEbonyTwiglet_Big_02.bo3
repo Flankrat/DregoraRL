@@ -78,7 +78,7 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,0,1,dynamictrees:rootydirtspecies:4,DT_BPEbonyTwiglet_Big_02/1-species_tile_entity.nbt)
+Block(0,0,1,dynamictrees:rootydirtspecies:4,../../../../../SharedNBT/Decorative/species_tile_entity_ebonytwiglet.nbt)
 Block(0,1,1,dynamictreesbop:ebonybranch:1)
 Block(0,2,1,dynamictreesbop:ebonybranch)
 Block(0,3,1,dynamictreesbop:leaves4:8)

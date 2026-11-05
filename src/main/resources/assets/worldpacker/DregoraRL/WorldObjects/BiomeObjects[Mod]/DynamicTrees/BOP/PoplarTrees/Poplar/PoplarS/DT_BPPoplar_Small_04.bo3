@@ -78,7 +78,7 @@ IsOTGPlus: false
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-Block(0,0,1,dynamictrees:rootydirtspecies,DT_BPPoplar_Small_04/1-species_tile_entity.nbt)
+Block(0,0,1,dynamictrees:rootydirtspecies,../../../../../../SharedNBT/Decorative/species_tile_entity_poplar.nbt)
 Block(0,1,1,dynamictrees:birchbranch:2)
 Block(0,2,1,dynamictrees:birchbranch:1)
 Block(0,3,1,dynamictrees:birchbranch)

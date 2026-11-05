@@ -79,7 +79,7 @@ IsOTGPlus: false
 #######################################################################
 
 Block(-1,2,1,dynamictreesbop:leaves2:0)
-Block(0,0,1,dynamictrees:rootydirtspecies:0,DT_BPWCherry_Small_02/1-species_tile_entity.nbt)
+Block(0,0,1,dynamictrees:rootydirtspecies:0,../../../../../../SharedNBT/Decorative/species_tile_entity_whitecherry.nbt)
 Block(0,1,1,dynamictreesbop:cherrybranch)
 Block(0,2,0,dynamictreesbop:leaves2:0)
 Block(0,2,1,dynamictreesbop:leaves2)

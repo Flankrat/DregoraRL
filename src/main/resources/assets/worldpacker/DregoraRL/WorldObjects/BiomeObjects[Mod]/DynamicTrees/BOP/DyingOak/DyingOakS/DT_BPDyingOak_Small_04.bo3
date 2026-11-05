@@ -123,7 +123,7 @@ IsOTGPlus: false
 #  Spawns an object in the Mojang NBT structure format. For example, 
 #  MinecraftObject(0,0,0,minecraft:igloo/igloo_bottom)
 #  spawns the bottom part of an igloo.
-Block(0,0,1,dynamictrees:rootydirtspecies:0,DT_BPDyingOak_Small_04/1-species_tile_entity.nbt)
+Block(0,0,1,dynamictrees:rootydirtspecies:0,../../../../../SharedNBT/Decorative/species_tile_entity_oakdying.nbt)
 BlockCheck(0,-1,1,GRASS,DIRT,BIOMESOPLENTY:GRASS,BIOMESOPLENTY:DIRT)
 Block(0,1,1,dynamictrees:oakbranch:2)
 Block(0,2,1,dynamictrees:oakbranch:2)

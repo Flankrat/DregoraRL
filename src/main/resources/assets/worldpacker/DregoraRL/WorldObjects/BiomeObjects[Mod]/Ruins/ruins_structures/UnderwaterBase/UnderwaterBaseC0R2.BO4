@@ -3307,9 +3307,9 @@ Block(7,23,-4,quark:slate:1)
 Block(7,23,-3,quark:slate:1)
 Block(4,12,0,variedcommodities:couch_wool:2,8-variedcommodities_couch_woolC0R32.nbt)
 Block(4,12,1,variedcommodities:couch_wool:2,9-variedcommodities_couch_woolC0R32.nbt)
-Block(5,12,-2,variedcommodities:table:5,25-variedcommodities_tableC0R32.nbt)
-Block(5,13,-2,variedcommodities:lamp,27-variedcommodities_lampC0R32.nbt)
-Block(6,16,-3,variedcommodities:table:5,42-variedcommodities_tableC0R32.nbt)
+Block(5,12,-2,variedcommodities:table:5,../../../../SharedNBT/Empty/variedcommodities_table_BannerRotation1.nbt)
+Block(5,13,-2,variedcommodities:lamp,../../../../SharedNBT/Empty/variedcommodities_lamp_BannerColor0_BannerRotation1.nbt)
+Block(6,16,-3,variedcommodities:table:5,../../../../SharedNBT/Empty/variedcommodities_table_BannerRotation1.nbt)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

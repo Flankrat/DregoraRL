@@ -4939,7 +4939,7 @@ RandomBlock(7,4,5,CONCRETE:7,60,quark:iron_plate:1,20,STAINED_CLAY:12,15,STAINED
 RandomBlock(7,4,6,CONCRETE:7,60,quark:iron_plate:1,20,STAINED_CLAY:12,15,STAINED_CLAY:15,5,AIR,7,IRON_BARS,12,CONCRETE:7,100)
 Block(7,4,7,OBSIDIAN:0)
 RandomBlock(7,4,8,CONCRETE:7,60,quark:iron_plate:1,20,STAINED_CLAY:12,15,STAINED_CLAY:15,5,AIR,7,IRON_BARS,12,CONCRETE:7,100)
-RandomBlock(7,5,-7,AIR,95,STANDING_BANNER:10,../AllScraperData/skyscraper_8x6_01/299-bannerC32R80.nbt,100)
+RandomBlock(7,5,-7,AIR,95,STANDING_BANNER:10,../../../../../SharedNBT/Empty/banner_Base0.nbt,100)
 Block(7,5,-6,OBSIDIAN:0)
 Block(7,5,-5,OBSIDIAN:0)
 Block(7,5,-4,OBSIDIAN:0)

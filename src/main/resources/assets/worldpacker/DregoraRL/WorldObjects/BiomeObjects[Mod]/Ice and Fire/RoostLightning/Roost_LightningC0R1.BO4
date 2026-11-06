@@ -3898,8 +3898,8 @@ RandomBlock(7,3,-2,AIR:0,30,iceandfire:goldpile:3,3,iceandfire:goldpile:2,10,ice
 RandomBlock(7,4,1,AIR:0,30,iceandfire:goldpile:3,3,iceandfire:goldpile:2,10,iceandfire:goldpile:1,20,iceandfire:goldpile,100)
 RandomBlock(2,2,-6,TRAPPED_CHEST:5,../../../Chests/Loot/junk_loot.nbt,10,TRAPPED_CHEST:5,../../../Chests/RLCraft/IceAndFire/fire_dragon_roost_chest.nbt,80,iceandfire:chared_stone,100)
 RandomBlock(7,3,-1,TRAPPED_CHEST:2,../../../Chests/Loot/junk_loot.nbt,10,TRAPPED_CHEST:2,../../../Chests/RLCraft/IceAndFire/fire_dragon_roost_chest.nbt,80,iceandfire:chared_stone,100)
-RandomBlock(2,1,-6,DISPENSER:1,../NBT/Special/charged_emerald.nbt,50,iceandfire:chared_stone,100)
-RandomBlock(7,2,-1,DISPENSER:1,../NBT/Special/charged_emerald.nbt,50,iceandfire:chared_stone,100)
+RandomBlock(2,1,-6,DISPENSER:1,../NBT/special/charged_emerald.nbt,50,iceandfire:chared_stone,100)
+RandomBlock(7,2,-1,DISPENSER:1,../NBT/special/charged_emerald.nbt,50,iceandfire:chared_stone,100)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

@@ -3412,9 +3412,9 @@ Block(7,13,5,PRISMARINE:2)
 Block(7,13,6,PRISMARINE:2)
 Block(7,13,7,PRISMARINE:2)
 Block(7,13,8,PRISMARINE:2)
-Block(-8,12,8,variedcommodities:couch_wool,286-variedcommodities_couch_woolC32R0.nbt)
+Block(-8,12,8,variedcommodities:couch_wool,../../../../SharedNBT/Empty/variedcommodities_couch_wool_BannerColor15_BannerRotation1_CouchCornerLeft0_CouchCornerRight0_CouchLeft0_CouchRight1.nbt)
 Block(-8,15,8,variedcommodities:wall_banner:2,291-variedcommodities_wall_bannerC32R0.nbt)
-Block(-1,15,6,variedcommodities:lamp,407-variedcommodities_lampC32R0.nbt)
+Block(-1,15,6,variedcommodities:lamp,../../../../SharedNBT/Empty/variedcommodities_lamp_BannerColor0_BannerRotation3.nbt)
 
 #######################################################################
 # +-----------------------------------------------------------------+ #

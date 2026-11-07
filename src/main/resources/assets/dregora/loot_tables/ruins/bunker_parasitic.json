@@ -418,10 +418,7 @@
         {
           "type": "item",
           "name": "quark:chain",
-          "weight": 5,
-          "functions": [
-            {"function": "minecraft:set_nbt", "tag": "{ncRadiationMin:0.0001d,ncRadiationMax:0.001d,display:{Name:\"§e☢§r §4§lCon§e§lta§4§lmin§e§lated Ru§4§lbble §e☢§r\",LocName:\"rldregora.nuclear.contaminated_rubble.name\"},HideFlags:2}"}
-          ]
+          "weight": 5
         },
         {
           "type": "item",

@@ -224,6 +224,7 @@ Ore(nuclearcraft:ore:2,6,20,100.0,0,20,STONE,SRPARASITES:INFESTEDRUBBLE)
 CustomObject(TrollCaveIce_01,TrollCaveIce_02,TrollCaveIce_03,TrollCaveIce_04,TrollCaveIce_05,TrollCaveIce_06)
 
 #RecurrentComplex
+CustomStructure(Trader_Castle,100.0)
 CustomStructure(P_TreeDungeon,0.0)
 
 #RuinsConversionQueue

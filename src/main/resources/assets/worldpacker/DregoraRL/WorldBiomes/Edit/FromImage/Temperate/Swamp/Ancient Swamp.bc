@@ -255,6 +255,7 @@ Ore(nuclearcraft:ore:2,6,20,100.0,0,20,STONE,SRPARASITES:INFESTEDRUBBLE)
 
 
 #RecurrentComplex
+CustomStructure(Trader_Swamp,100.0)
 CustomStructure(P_TreeDungeon,0.0)
 
 #RuinsConversionQueue

@@ -240,6 +240,7 @@ Ore(nuclearcraft:ore:2,6,20,100.0,0,20,STONE,SRPARASITES:INFESTEDRUBBLE)
 CustomObject(TrolLCave_01,TrolLCave_02,TrolLCave_03,TrolLCave_04,TrolLCave_05,TrolLCave_06)
 
 #RecurrentComplex
+CustomStructure(Trader_Castle,100.0)
 CustomStructure(P_TreeDungeon,0.0)
 
 #RuinsConversionQueue

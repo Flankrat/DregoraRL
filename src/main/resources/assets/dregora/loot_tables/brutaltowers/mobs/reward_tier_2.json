@@ -1,0 +1,171 @@
+{
+  "pools": [
+    {
+      "name": "reward",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:coin_gold",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "scalinghealth:heartdust",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 20,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bountifulbaubles:spectralsilt",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:1,Duration:1}],CustomPotionColor:16262179,display:{Name:\"§rPotion of Healing\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10,Amplifier:0,Duration:900}],CustomPotionColor:13458603,display:{Name:\"§rPotion of Regeneration\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:0,Duration:3600}],CustomPotionColor:8171462,display:{Name:\"§rPotion of Swiftness\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:42,Amplifier:0,Duration:3600}],CustomPotionColor:11842760,display:{Name:\"§rPotion of Wither Ward\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:5,Amplifier:0,Duration:3600}],CustomPotionColor:9643043,display:{Name:\"§rPotion of Strength\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:11,Amplifier:0,Duration:2400}],CustomPotionColor:10044730,display:{Name:\"§rPotion of Resistance\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:86,Amplifier:0,Duration:3600}],CustomPotionColor:16777164,display:{Name:\"§rPotion of Slow Falling\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:87,Amplifier:0,Duration:3600}],CustomPotionColor:52377,display:{Name:\"§rAntidote\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

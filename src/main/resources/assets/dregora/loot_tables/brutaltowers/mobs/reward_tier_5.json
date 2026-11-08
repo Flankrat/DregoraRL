@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "name": "reward",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:coin_gold",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bountifulbaubles:spectralsilt",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "xat:glowing_ingot",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:satchel",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "scalinghealth:heartcontainer",
+          "weight": 4
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:brutaltowers/epic_no_junk",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:5,Amplifier:1,Duration:1800},{Id:11,Amplifier:1,Duration:1800},{Id:10,Amplifier:0,Duration:1800}],CustomPotionColor:16729088,display:{Name:\"§r§4Revenant's Brew\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:57,Amplifier:1,Duration:2400}],CustomPotionColor:2873584,display:{Name:\"§rPotion of Diamond Skin II\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:124,Amplifier:0,Duration:3600}],CustomPotionColor:16309159,display:{Name:\"§rPotion of Invigoration\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:161,Amplifier:0,Duration:2400},{Id:22,Amplifier:1,Duration:2400}],CustomPotionColor:65433,display:{Name:\"§r§5Vampiric Draught\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

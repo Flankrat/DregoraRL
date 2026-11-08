@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "name": "reward",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bountifulbaubles:spectralsilt",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:satchel",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:coin_gold",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "scalinghealth:heartcontainer",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "xat:glowing_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:brutaltowers/epic_no_junk",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:81,Amplifier:0,Duration:6000}],CustomPotionColor:16711680,display:{Name:\"§r§6Potion of Revival\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:5,Amplifier:1,Duration:4800},{Id:11,Amplifier:1,Duration:4800},{Id:10,Amplifier:0,Duration:4800}],CustomPotionColor:16729088,display:{Name:\"§r§4Greater Revenant's Brew\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:57,Amplifier:1,Duration:3600},{Id:85,Amplifier:0,Duration:3600}],CustomPotionColor:2873584,display:{Name:\"§r§bBulwark Draught\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:124,Amplifier:0,Duration:3600}],CustomPotionColor:16309159,display:{Name:\"§rPotion of Invigoration\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

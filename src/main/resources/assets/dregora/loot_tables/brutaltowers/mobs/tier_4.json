@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "name": "reward",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:brutaltowers/mobs/reward_tier_4",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "joke_weapon",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.00025
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_weapons_epic",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

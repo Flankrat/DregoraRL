@@ -1,0 +1,165 @@
+{
+  "pools": [
+    {
+      "name": "reward",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "variedcommodities:coin_gold",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "bountifulbaubles:spectralsilt",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "xat:glowing_ingot",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "scalinghealth:heartcontainer",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:54,Amplifier:0,Duration:3600}],CustomPotionColor:13092807,display:{Name:\"§rPotion of Iron Skin\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:85,Amplifier:0,Duration:3600}],CustomPotionColor:16729770,display:{Name:\"§rPotion of Magic Shield\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:176,Amplifier:0,Duration:3600}],CustomPotionColor:6750139,display:{Name:\"§rPotion of Immunization\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:161,Amplifier:0,Duration:2400}],CustomPotionColor:65433,display:{Name:\"§rPotion of Leeching\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:12,Amplifier:0,Duration:6000}],CustomPotionColor:14981690,display:{Name:\"§rPotion of Fire Resistance\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:47,Amplifier:0,Duration:3600}],CustomPotionColor:5970436,display:{Name:\"§rPotion of Resilience\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:22,Amplifier:1,Duration:2400}],CustomPotionColor:2445989,display:{Name:\"§rPotion of Absorption\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

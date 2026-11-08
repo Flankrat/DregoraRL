@@ -2,12 +2,15 @@
   "pools": [
     {
       "name": "reward",
-      "rolls": 1,
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
       "entries": [
         {
           "type": "item",
           "name": "minecraft:experience_bottle",
-          "weight": 12,
+          "weight": 1200,
           "functions": [
             {
               "function": "set_count",
@@ -21,27 +24,13 @@
         {
           "type": "item",
           "name": "variedcommodities:coin_gold",
-          "weight": 10,
+          "weight": 1000,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 5,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 4
+                "min": 6,
+                "max": 32
               }
             }
           ]
@@ -49,11 +38,11 @@
         {
           "type": "item",
           "name": "minecraft:book",
-          "weight": 12,
+          "weight": 1200,
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": 80,
               "treasure": true
             }
           ]
@@ -61,13 +50,13 @@
         {
           "type": "item",
           "name": "bountifulbaubles:spectralsilt",
-          "weight": 8,
+          "weight": 800,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 3
               }
             }
           ]
@@ -75,7 +64,7 @@
         {
           "type": "item",
           "name": "xat:glowing_ingot",
-          "weight": 7,
+          "weight": 700,
           "functions": [
             {
               "function": "set_count",
@@ -89,22 +78,26 @@
         {
           "type": "item",
           "name": "variedcommodities:satchel",
-          "weight": 6
+          "weight": 600,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
         },
         {
           "type": "item",
           "name": "scalinghealth:heartcontainer",
-          "weight": 4
-        },
-        {
-          "type": "loot_table",
-          "name": "dregora:brutaltowers/epic_no_junk",
-          "weight": 4
+          "weight": 400
         },
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 8,
+          "weight": 800,
           "functions": [
             {
               "function": "set_nbt",
@@ -115,7 +108,7 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 6,
+          "weight": 600,
           "functions": [
             {
               "function": "set_nbt",
@@ -126,7 +119,7 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 5,
+          "weight": 500,
           "functions": [
             {
               "function": "set_nbt",
@@ -137,13 +130,18 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 6,
+          "weight": 600,
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{CustomPotionEffects:[{Id:161,Amplifier:0,Duration:2400},{Id:22,Amplifier:1,Duration:2400}],CustomPotionColor:65433,display:{Name:\"§r§5Vampiric Draught\"}}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_weapons_epic",
+          "weight": 171
         }
       ]
     }

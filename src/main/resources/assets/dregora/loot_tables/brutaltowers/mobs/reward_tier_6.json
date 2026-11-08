@@ -2,12 +2,15 @@
   "pools": [
     {
       "name": "reward",
-      "rolls": 1,
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
       "entries": [
         {
           "type": "item",
           "name": "minecraft:experience_bottle",
-          "weight": 10,
+          "weight": 1000,
           "functions": [
             {
               "function": "set_count",
@@ -20,26 +23,12 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond",
-          "weight": 12,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "minecraft:book",
-          "weight": 12,
+          "weight": 1200,
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": 80,
               "treasure": true
             }
           ]
@@ -47,13 +36,13 @@
         {
           "type": "item",
           "name": "bountifulbaubles:spectralsilt",
-          "weight": 8,
+          "weight": 800,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 2
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -61,18 +50,27 @@
         {
           "type": "item",
           "name": "variedcommodities:satchel",
-          "weight": 10
+          "weight": 1000,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
         },
         {
           "type": "item",
           "name": "variedcommodities:coin_gold",
-          "weight": 8,
+          "weight": 800,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 6,
-                "max": 12
+                "max": 32
               }
             }
           ]
@@ -80,12 +78,12 @@
         {
           "type": "item",
           "name": "scalinghealth:heartcontainer",
-          "weight": 5
+          "weight": 500
         },
         {
           "type": "item",
           "name": "xat:glowing_ingot",
-          "weight": 5,
+          "weight": 500,
           "functions": [
             {
               "function": "set_count",
@@ -97,14 +95,9 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "dregora:brutaltowers/epic_no_junk",
-          "weight": 8
-        },
-        {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 5,
+          "weight": 500,
           "functions": [
             {
               "function": "set_nbt",
@@ -115,7 +108,7 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 6,
+          "weight": 600,
           "functions": [
             {
               "function": "set_nbt",
@@ -126,7 +119,7 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 6,
+          "weight": 600,
           "functions": [
             {
               "function": "set_nbt",
@@ -137,13 +130,18 @@
         {
           "type": "item",
           "name": "minecraft:potion",
-          "weight": 5,
+          "weight": 500,
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{CustomPotionEffects:[{Id:124,Amplifier:0,Duration:3600}],CustomPotionColor:16309159,display:{Name:\"§rPotion of Invigoration\"}}"
             }
           ]
+        },
+        {
+          "type": "loot_table",
+          "name": "dregora:loot/unique_loot_epic/unique_weapons_epic",
+          "weight": 247
         }
       ]
     }

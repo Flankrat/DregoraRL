@@ -23,7 +23,7 @@
       "conditions": [
         {
           "condition": "random_chance",
-          "chance": 0.000125
+          "chance": 0.0001818
         }
       ],
       "entries": [

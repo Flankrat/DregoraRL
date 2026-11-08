@@ -9990,7 +9990,7 @@ RandomBlock(4,21,-4,STONEBRICK:1,10,STONEBRICK:2,10,COBBLESTONE,10,MOSSY_COBBLES
 RandomBlock(4,21,-3,STONEBRICK:1,10,STONEBRICK:2,10,COBBLESTONE,10,MOSSY_COBBLESTONE,10,SMOOTH_BRICK,100)
 Block(4,21,-2,SMOOTH_STAIRS:3)
 Block(4,21,-1,AIR:0)
-Entity(4,21,0,wither_skeleton,1,../Entities/D01/Dungeon01Guardian.txt)
+Entity(4,21,0,wither_skeleton,1,../Entities/D01/Dungeon01Guardian.nbt)
 Block(4,21,0,AIR:0)
 Block(4,21,1,AIR:0)
 Block(4,21,2,AIR:0)

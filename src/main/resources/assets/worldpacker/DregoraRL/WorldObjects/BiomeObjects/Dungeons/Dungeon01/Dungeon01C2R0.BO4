@@ -5036,7 +5036,7 @@ RandomBlock(-1,8,-3,STONEBRICK:1,10,STONEBRICK:2,10,COBBLESTONE,10,MOSSY_COBBLES
 RandomBlock(-1,8,-2,STONEBRICK:1,10,STONEBRICK:2,10,COBBLESTONE,10,MOSSY_COBBLESTONE,10,SMOOTH_BRICK,100)
 Block(-1,8,-1,STEP:0)
 Block(-1,8,0,AIR:0)
-Entity(-1,8,1,wither_skeleton,1,../Entities/D01/Dungeon01Guardian.txt)
+Entity(-1,8,1,wither_skeleton,1,../Entities/D01/Dungeon01Guardian.nbt)
 Block(-1,8,1,AIR:0)
 Block(-1,8,2,AIR:0)
 Block(-1,8,3,AIR:0)

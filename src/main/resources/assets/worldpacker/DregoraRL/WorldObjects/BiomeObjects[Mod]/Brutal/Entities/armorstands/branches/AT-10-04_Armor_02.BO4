@@ -115,7 +115,7 @@ DoReplaceBlocks: false
 #Entity(6,154,0,WOOL:12)  = armorstand_15
 
 Entity(-6,154,0,armor_stand,1,../tier_10_04/armorstand_01.nbt)
-Entity(-4,153,-5,armor_stand,1,../tier_10_04/armorstand_03.nbt)
+Entity(-4,153,-5,armor_stand,1,../tier_10_04/armorstand_08.nbt)
 Entity(0,154,6,armor_stand,1,../tier_10_04/armorstand_02.nbt)
 Entity(4,153,-5,armor_stand,1,../tier_30/armorstand_09.nbt)
 Entity(6,154,0,armor_stand,1,../tier_10_04/armorstand_15.nbt)

@@ -61,9 +61,9 @@ ExcludedBiomes: All
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
-SourceBlocks: AIR
+SourceBlocks: STATIONARY_WATER
 
-MaxPercentageOutsideSourceBlock: 100
+MaxPercentageOutsideSourceBlock: 0
 
 OutsideSourceBlock: placeAnyway
 
@@ -86,6 +86,8 @@ RandomBlock(0,0,0,biomesoplenty:coral,10,biomesoplenty:coral:1,15,biomesoplenty:
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+BlockCheck(0,1,0,STATIONARY_WATER)
+BlockCheck(0,0,0,STATIONARY_WATER)
 BlockCheck(0,-1,0,SAND,DIRT)
 
 #######################################################################

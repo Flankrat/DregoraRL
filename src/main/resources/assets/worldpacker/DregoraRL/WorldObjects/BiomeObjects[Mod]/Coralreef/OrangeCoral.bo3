@@ -86,6 +86,7 @@ Block(0,0,0,coralreef:coral)
 # +-----------------------------------------------------------------+ #
 #######################################################################
 
+BlockCheck(0,1,0,STATIONARY_WATER,WATER)
 BlockCheck(0,0,0,STATIONARY_WATER,WATER)
 BlockCheck(0,-1,0,coralreef:reef)
 
